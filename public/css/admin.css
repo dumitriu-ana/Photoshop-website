@@ -1,0 +1,132 @@
+html, body{
+  overflow-x: hidden;
+}
+
+.mess
+{
+  width: 400px;
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 70px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.titlu
+{
+  height:20vh;
+  background-color: #6ab3f7;
+  color: white;
+  padding-left: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.up
+{
+    background-color: #3984fa;
+    height:50px;
+    color: white;
+}
+
+.caseta
+{
+  border:solid;
+  border-color: #3984fa;
+  border-width: 2px;
+  padding:0 !important;
+}
+
+.dreapta
+{
+   margin:0;
+  padding-top:20px;
+  display: flex;
+  padding-top: 70px;
+  align-content: center;
+}
+
+.dreapta button
+{
+  width: 70%!important;
+  min-height: 35px;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: none;
+  background-color: #f0f1f5;
+  color: black;
+
+}
+
+.c2
+{
+  margin-bottom:25px;
+  display: flex;
+  border: solid;
+  border-color: grey;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.order-fade, .loading-fade, .price-fade{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.order-fade .order-content, .price-fade .price-content{
+  position: fixed;
+  top: 200px;
+  bottom: 200px;
+  left: 200px;
+  right: 200px;
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+.order-fade .order-content .close-but, .price-fade .price-content .close-but{
+  position: fixed;
+  top:200px;
+  right: 200px;
+  width: 35px;
+  height: 35px;
+  background-color: #c92828;
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.order-fade .order-content .close-but:hover, .price-fade .price-content .close-but:hover{
+  cursor: pointer;
+}
+
+.order-fade span{
+  font-weight: 900;
+}
+
+.loading-fade, .price-fade{
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-fade .loading-div{
+  position: fixed;
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

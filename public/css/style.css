@@ -1,0 +1,270 @@
+html, body
+{
+  overflow-x:hidden;
+}
+body
+{
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.navbar
+{
+  border: none !important;
+  background-color: #fff !important;
+}
+.caseta
+{
+  z-index: 10;
+  background-color: white;
+}
+.caseta ul
+{
+  list-style: none;
+
+}
+.caseta ul li
+{
+  border-top: solid;
+  border-width: 1px;
+  border-color: grey;
+  padding: 8px;
+}
+.down
+{
+  background-color: #000 !important;
+  position: relative;
+  min-height: 15vh;
+  z-index: 999;
+}
+.down a{
+  color: white !important;
+}
+.big_button
+{
+  background-image: linear-gradient(#3984fa, #0047b8)
+}
+
+
+
+
+
+
+
+
+
+
+
+.registr
+{
+  display: flex;
+  justify-content: center;
+  min-height: 85vh;
+}
+.terms
+{
+  background-color: #ebf2ff;
+  border: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: #003b99;
+}
+.terms p
+{
+  margin:5px;
+}
+.registr input[type="submit"]
+{
+
+  color: white;
+  width: 200px;
+  border-radius: 30px;
+  background-color: #003b99;
+}
+
+.registr input[type="text"],.registr input[type="password"],
+.registr input[type="number"], textarea{
+
+  width: 55% !important;
+  border-color:gray !important;
+  border-width:1px !important;
+  border-radius: 0 !important;
+  resize: none !important;
+  box-shadow: 1px 2px 2px gray inset !important;
+}
+
+
+
+
+
+.logout, .mess-box
+{
+  background-color: rgba(24, 39, 61, 0.7);
+  top: 0;
+  bottom: 0;
+  left:0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.mess-box{
+  z-index: 999;
+}
+
+.mess
+{
+  width: 400px;
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 70px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.orderl
+{
+  width: 700px;
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 70px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+
+.table tbody tr td
+{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  border-left: solid;
+  border-right: solid;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: #c1c8d4;
+}
+
+.SG button
+{
+  width: 80%;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+.SGBUT button
+{
+  border: solid;
+  border-color: #c3c4c7;
+  border-radius: 0;
+  border-width: 2px;
+  padding: 0;
+}
+.SGBUT p
+{
+  border: solid;
+  border-color: #c3c4c7;
+  border-radius: 0;
+  border-width: 2px;
+  background-color: #c3c4c7;
+  margin:0;
+}
+
+.SG button img
+{
+  width: 100%;
+}
+.SG .glyphicon, .NOR .glyphicon
+{
+  width: 10% !important;
+}
+.NOR
+{
+  width: 85% !important;
+  border: solid;
+  border-width: 2px;
+  border-color: #c3c4c7;
+  background-color: white;
+  padding: 0;
+}
+
+.NOR .center{
+  height: 35px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.NOR .center p{
+  margin: 0;
+}
+
+.NOR img
+{
+  width: 30% !important;
+  float: left;
+}
+
+.NOR span{
+  width: 70% !important;
+  text-align: center;
+}
+
+.steps .col-xs-3 .glyphicon{
+  vertical-align: top !important;
+}
+
+.ordert
+{
+  border:solid;
+  border-radius: 0;
+  border-width: 1px;
+  border-color: #c3c4c7;
+  margin: 30px;
+}
+.ordert p
+{
+  margin:30px;
+}
+
+
+.SE
+{
+  border: none !important;
+}
+
+.SE input{
+  margin-left: 15px;
+  margin-right: 15px;
+  box-shadow: 1px 2px 2px gray inset;
+  width: 55px;
+}
+
+.alin p
+{
+  text-align: right;
+}
+
+.table.ordtab tbody tr td {
+  padding:8px !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+}
+
+.glyphicon-cloud-download{
+  color: #c9ced6 !important;
+}
+
+.glyphicon-cloud-download.active{
+  color: #3469d1 !important;
+}
